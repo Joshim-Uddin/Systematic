@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Source+Serif+Pro:wght@300;400&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f9a5991c46.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,7 +30,6 @@
            <div class="head-sec">
                <div class="logo"><a href="index.html"><h1 style="text-transform:uppercase"><span>S</span>ystematic</h1>
                 <h5> Free PSD Website Template</h5></a>
-                   
                </div>
                <div class="social-icon">
                     <a class="link1" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
@@ -44,22 +45,38 @@
        <div class="container">
            <nav>
                <div class="navbar">
-                <ul>
+                <a href="index.html" id="current">Homepage</a>
+                <a href="#news">Style Demo</a>
+                <a href="#fulWidth">Full Width</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Dropdown 
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Dropdown1</a>
+                    <a href="#">Dropdown2</a>
+                    <a href="#">Dropdown3</a>
+                  </div>
+                </div>
+                <a href="#">Gallery</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Link Text</a>
+                <a href="#">Long Link Text</a>
+                <!-- <ul>
                     <li id="current"><a href="index.html">Homepage</a></li>   
                     <li><a href="#">Style Demo</a></li>
                    <li><a href="#">Full Width</a></li>
-                   <li><a class="drop"href="#">Dropdown</a>
-                    <ul class="drop1">
-                        <li><a href="#">Dropdown1</a></li>
-                        <li><a href="#">Dropdown2</a></li>
-                        <li><a href="#">Dropdown3</a></li>
-                    </ul>
+                   <li class="dropdown"><a href="#" class="drop">Dropdown</a>
+                    <div class="dropdown-content">
+                        <a href="#">Dropdown1</a>
+                        <a href="#">Dropdown2</a>
+                        <a href="#">Dropdown3</a>
+                    </div>
                     </li>
                    <li><a href="#">Gallery</a></li>
                    <li><a href="#">Portfolio</a></li>
                    <li><a href="#">Link Text</a></li>
                    <li><a href="#">Long Link Text</a></li>
-               </ul>
+               </ul> -->
                </div>
                
            </nav>
@@ -75,12 +92,12 @@
        </div>
    </section>
    <section id="boxes">
-       <div class="container">
+       <div class="container bg">
            <div class="upper-box">
                <h2>A Little About Us</h2>
                <div><img src="https://via.placeholder.com/320x140px" alt="">
-               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, doloribus illo qui adipisci aspernatur non voluptate? Iste minima sed nemo ea esse itaque, dolore corporis ex voluptatibus, pariatur nobis excepturi, deleniti ad laudantium perspiciatis cupiditate. Consequatur commodi aspernatur totam ipsam cupiditate, eius vel voluptatem veritatis nihil iusto quae earum consequuntur.</p>
-               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, enim totam. Eius eveniet quae veniam repellendus delectus odit corrupti omnis laudantium, eum nihil aperiam voluptatibus. <br><br> <a href="#">Read More Aout Us>></a></p>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, doloribus illo qui adipisci aspernatur non voluptate? Iste minima sed nemo ea esse itaque, dolore corporis ex voluptatibus, pariatur nobis excepturi, deleniti ad laudantium perspiciatis cupiditate.</p> <br>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, enim totam.  <br><br> <a href="#">Read More Aout Us>></a></p>
             </div>
             </div>
            <div class="upper-box">
@@ -104,19 +121,20 @@
                  <div class="sub-box">
                     <div class="service-img"><img src="https://via.placeholder.com/64x64px" alt=""></div>
                         <div class="service-dtl"><h3>Service Name</h3>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br><br><br><br><a id="anchor" href="#">View All of Our Services>></a></p></div>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br><br><br><a id="anchor" href="#">View All of Our Services>></a></p></div>
                  </div>
                  
            </div>
            <div class="upper-box" id="last-box">
                <h2>What our Clients Say</h2>
-               <div>
+               <div class="client">
                 <h3><img src="img/Daco.png" alt="" width="25px" height="25px"> <span>Tommy Tanker-CEO</span></h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae, dolor, dignissimos quisquam expedita impedit qui molestias numquam aliquam, maxime molestiae. Mollitia amet cupiditate corrupti voluptatum doloremque eum exercitationem earum, nesciunt repudiandae optio quam, beatae modi unde sunt veritatis, vitae libero illum culpa! Alias, eligendi! <br> <a href="#">View This Project>></a></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae, dolor, dignissimos quisquam expedita impedit qui molestias numquam aliquam, maxime molestiae. Mollitia amet cupiditate corrupti voluptatum doloremque</p> <br> <a href="#">View This Project>></a>
                  </div>
-                 <div>
+                 <br>
+                 <div class="client">
                     <h3><img src="img/Daco.png" alt="" width="25px" height="25px"> <span>Tommy Tanker-CEO</span></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae, dolor, dignissimos quisquam expedita impedit qui molestias numquam aliquam, maxime molestiae. Mollitia amet cupiditate corrupti voluptatum doloremque eum exercitationem earum, nesciunt repudiandae optio quam, beatae modi unde sunt veritatis, vitae libero illum culpa! Alias, eligendi! <br> <a href="#">View This Project>></a></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae, dolor, dignissimos quisquam expedita impedit qui molestias numquam aliquam, maxime molestiae. Mollitia amet cupiditate corrupti voluptatum doloremque </p><br> <a href="#">View This Project>></a>
                 </div>        
            </div>
        </div>
@@ -126,56 +144,67 @@
            <div class="lower-box">
                 <div class="box1">
                     <h3>Latest tweets</h3>
-                    <p>@namehere Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero perspiciatis officia placeat debitis nesciunt doloremque expedita tenetur facilis?</p>
-                    <p>@namehere Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero perspiciatis officia placeat debitis nesciunt doloremque expedita tenetur facilis?</p>
+                    <p><span>@namehere</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero perspiciatis officia placeat debitis nesciunt doloremque expedita tenetur facilis?</p><br>
+                    <p><span>@namehere</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero perspiciatis officia placeat debitis nesciunt doloremque expedita tenetur facilis?</p>
                 </div>
+                </div>
+                <div class="lower-box">
                 <div class="box2">
                     <h3>Quick Links</h3>
-                    <table>
-                        <tr><td>>> Lorem ipsum dolor sit.</td></tr>
-                        <tr><td>>> Lorem ipsum dolor sit.</td></tr>
-                        <tr><td>>> Lorem ipsum dolor sit.</td></tr>
-                        <tr><td>>> Lorem ipsum dolor sit.</td></tr>
-                        <tr><td>>> Lorem ipsum dolor sit.</td></tr>
-                        <tr><td>>> Lorem ipsum dolor sit.</td></tr>
-                        <tr><td>>> Lorem ipsum dolor sit.</td></tr>
-                        <tr><td>>> Lorem ipsum dolor sit.</td></tr>
-                        <tr><td>>> Lorem ipsum dolor sit.</td></tr>
-                        <tr><td>>> Lorem ipsum dolor sit.</td></tr>
-                    </table>   
+                        <a href="#">>> Lorem ipsum dolor sit.</a>
+                        <a href="#">>> Lorem ipsum dolor sit.</a>
+                        <a href="#">>> Lorem ipsum dolor sit.</a>
+                        <a href="#">>> Lorem ipsum dolor sit.</a>
+                        <a href="#">>> Lorem ipsum dolor sit.</a>
+                        <a href="#">>> Lorem ipsum dolor sit.</a>
+                        <a href="#">>> Lorem ipsum dolor sit.</a>
+                        <a href="#">>> Lorem ipsum dolor sit.</a>
+                        <a href="#">>> Lorem ipsum dolor sit.</a>
+                        <a href="#">>> Lorem ipsum dolor sit.</a>
+                      
                 </div>
+            </div>
+            <div class="lower-box">
                 <div class="box3">
                     <h3>Latest Blog Posts</h3>
-                    <table>
-                        <tr><td><h4>Post Title</h4></td></tr>
-                        <tr><td>Admin, domainname.com</td></tr>
-                        <tr><td>Friday, 6th February 2022</td></tr>
-                        <tr><td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iusto molestias iste nihil minus explicabo! <br><br> <a href="#">Read More>></a></td></tr>
-                    </table>
-                    <table>
-                        <tr><td><h4>Post Title</h4></td></tr>
-                        <tr><td>Admin, domainname.com</td></tr>
-                        <tr><td>Friday, 6th February 2022</td></tr>
-                        <tr><td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iusto molestias iste nihil minus explicabo! <br><br> <a href="#">Read More>></a></td></tr>
-                    </table>
+                    
+                        <h4>Post Title</h4>
+                        <p><span>Admin,</span> domainname.com</p> 
+                        <p>Friday, 6th February 2022</p>
+                        <p class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet.  <a href="#">Read More>></a></p>
+                    
+                        <h4>Post Title</h4>
+                        <p><span>Admin,</span> domainname.com</p> 
+                        <p>Friday, 6th February 2022</p>
+                        <p class="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet. <a href="#">Read More>></a></p>
+                       
                         
                        
                 </div>
+            </div>
+            <div class="lower-box">
                 <div class="box4">
                     <h3>Contact Us</h3>
                     <form action="submit">
                         <input type="text" placeholder="Name">
                         <input type="email" placeholder="Email">
                         <input type="text" placeholder="Subject">
-                        <textarea type="text" cols="30" rows="10" placeholder="message"></textarea>                 
-                        <input type="button" value="SUBMIT">
+                        <textarea type="text" cols="30" rows="10" placeholder="Message"></textarea>                 
+                        <input type="submit" value="SUBMIT">
                     </form>           
                 </div>
+            </div>
            </div>
        </div>
    </section>
    <footer>
-       <p>Copyright&copy; 2022 Domain Name - All Rights Reserved</p>
+       <div class="container">
+           <div class="fot">
+                <p class="left-foot">Copyright&copy; 2022 Domain Name - All Rights Reserved</p>
+                <p class="right-foot">Template By Joshim Uddin</p>
+           </div>
+        
+       </div>
    </footer>
 </body>
 </html>
